@@ -1,0 +1,255 @@
+nav{
+    background-color:#314674
+}
+
+.navbar{
+    padding:0;
+}
+nav .navbar-brand{
+    font-size:2rem;
+    font-weight: 300;
+    padding-left:3rem;
+    color:white;
+    
+}
+
+
+nav .collapse .navbar-nav .nav-item .nav-link{
+    color:white;
+    font-weight:200;
+    transition: color .5s;
+    transition: font-size .5s
+}
+
+nav .collapse .navbar-nav .nav-item .nav-link:hover{
+    color:rgb(255,0,0.6);
+    font-size:1.1rem;
+    font-weight: 300;
+  
+}
+
+
+.slideimg{
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.slideimg:hover{
+    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.03); 
+  
+
+}
+
+
+.heading-title{
+    font-weight:400;
+    color:white
+}
+
+
+.buybtn{
+    width:10rem;
+    padding:.6rem 1rem;
+    font-size:1.2rem;
+    font-weight: 200;
+    background-color: rgb(91, 122, 51,.7);
+    border-radius: 5px;
+    color:white;
+    border:none;
+    outline:none;
+}
+.buybtn:hover{
+    background-color: rgb(91, 122, 51,1);
+
+}
+
+.learnbtn{
+    width:10rem;
+    padding:.6rem 1rem;
+    font-size:1.2rem;
+    font-weight: 200;
+    background-color: rgb(0, 153, 255,.7);
+    border-radius: 5px;
+    color:white;
+    border:none;
+    outline:none;
+
+}
+.learnbtn:hover{
+    background-color: rgb(0, 153, 255,1);
+
+}
+
+
+.aboutUsPage{
+    padding-top:3rem;
+    padding-bottom:3rem;
+    /* background-color:grey; */
+    
+
+}
+
+.aboutUs{
+    font-weight: 200;
+    font-family:sans-serif;
+
+
+    
+}
+
+.aboutUshr hr{
+     width:100%; height:.7px; background: rgb(0, 119, 128) 
+}
+
+ hr{
+     background: lightgray 
+}
+
+
+
+.android::after{
+    content: '';
+    display:block;
+    width:0px;
+    height:2px;
+    background:blue;
+    transition:width 1s;
+}
+
+.android:hover::after{
+    width:100%;
+    transition:width 1s;
+}
+
+.apple::after{
+    content: '';
+    display:block;
+    width:0px;
+    height:2px;
+    background:blue;
+    transition:width 1s;
+}
+
+.apple:hover::after{
+    width:80%;
+    transition:width 1s;
+}
+
+.windows::after{
+    content: '';
+    display:block;
+    width:0px;
+    height:2px;
+    background:blue;
+    transition:width 1s;
+}
+
+.windows:hover::after{
+    width:80%;
+    transition:width 1s;
+}
+
+.headfeature::after{
+    content: '';
+    display:block;
+    width:0px;
+    height:2px;
+    background:blue;
+    transition:width 1s;
+}
+
+
+
+.featurecontent{
+    padding-top:3rem;
+    padding-bottom:3rem;
+    background-color:lightgray
+}
+
+ .headimg img {
+    border-radius: 50%;
+    width:70px ;
+    height:70px
+  }
+
+
+
+  .formbtn{
+
+    width:100%;
+    padding:.5rem 1rem;
+    font-size:1.2rem;
+    font-weight: 200;
+    background-color: rgb(91, 122, 51,.7);
+    border-radius: 5px;
+    color:white;
+    border:none;
+    outline:none;
+
+  }
+  .formbtn:hover{
+    background-color: rgb(91, 122, 51,1);
+
+  }
+
+
+
+  .featurepic{
+    /* background-image: url("../assets/bridge.jpeg"); */
+    /* background-repeat: no-repeat; */
+    padding-bottom:3rem;
+  
+    /* background-size:100% 100%; */
+    height:100%;
+    background:linear-gradient(to top,rgba(40,48,57,1),
+    rgba(34,32,41,.7)),url("../assets/bridge.jpeg") center
+    no-repeat;
+    background-size: cover;
+ 
+  }
+  .mat-input-element::placeholder{
+    color: red;
+ }
+
+  input[type=text] {
+   color:white
+  }
+
+
+
+  
+.teamContent{
+    padding-top:3rem;
+    padding-bottom:3rem;
+
+    background-color:grey
+}
+
+.fasicon{
+    display:flex;
+    justify-content: space-around 
+}
+
+.facebook{
+    font-size:20px;
+    cursor: pointer;
+    transition: transform .4s;
+    
+}
+
+.facebook:hover{
+    color:blue;
+
+ 
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5);
+
+      
+  
+   
+}
+
+
