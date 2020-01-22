@@ -42,11 +42,30 @@ nav .collapse .navbar-nav .nav-item .nav-link:hover{
 
 }
 
-
 .heading-title{
     font-weight:400;
-    color:white
+    color:white;;
+    animation: anim 2s;
+
 }
+.heading-subtitle{
+    font-weight:400;
+    color:white;
+ 
+    animation: anim 1.5s .5s backwards;
+}
+
+@keyframes anim{
+    0%{
+        opacity:0;
+    }
+
+    100%{
+    opacity:1;
+    }
+}
+
+
 
 
 .buybtn{
@@ -59,6 +78,7 @@ nav .collapse .navbar-nav .nav-item .nav-link:hover{
     color:white;
     border:none;
     outline:none;
+    animation: anim 1s 1s backwards;
 }
 .buybtn:hover{
     background-color: rgb(91, 122, 51,1);
@@ -75,6 +95,7 @@ nav .collapse .navbar-nav .nav-item .nav-link:hover{
     color:white;
     border:none;
     outline:none;
+    animation: anim 1s 1s backwards;
 
 }
 .learnbtn:hover{
